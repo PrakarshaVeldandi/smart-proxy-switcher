@@ -10,7 +10,7 @@ SCHEMA="org.gnome.settings-daemon.plugins.media-keys"
 BASE_PATH="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
 
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-SOURCE_SCRIPT="$PROJECT_DIR/scripts/toggle-proxy.sh"
+SOURCE_SCRIPT="$PROJECT_DIR/linux/toggle-proxy.sh"
 
 BIN_DIR="$HOME/bin"
 TARGET_SCRIPT="$BIN_DIR/toggle-proxy.sh"
