@@ -1,0 +1,23 @@
+# Local configuration
+.env
+*.local
+config.local
+
+# Credentials
+credentials
+credentials.*
+password*
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
